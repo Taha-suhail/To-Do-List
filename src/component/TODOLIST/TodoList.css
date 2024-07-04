@@ -1,0 +1,60 @@
+.items{
+    display: flex;
+    color: #ffdfdb;;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0.5rem;
+    width: 20rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 1.5rem;
+    background-color: #242e33;
+  
+}
+/* .items svg{
+    cursor: pointer;
+} */
+.items li{
+    list-style: none;
+   padding: 5px;
+}
+.check_boxes .tick{
+    color: greenyellow;
+    cursor: pointer;
+}
+.check_boxes .tick:hover{
+    color: rgb(130, 178, 58);
+}
+.check_boxes > :nth-child(2) {
+    color: red; 
+    cursor: pointer;
+}
+.check_boxes > :nth-child(2):hover {
+ 
+    color: rgb(169, 31, 31);
+}
+.editing_input{
+    padding: 0.5rem;
+    width: 80%;
+    border: none;
+    background-color: #181a1a;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+.editing_input:focus{
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
